@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/styles.css" />
+  <title>Conversor de números romanos</title>
+</head>
+
+<body>
+  <main>
+      <h1>Conversor de números romanos</h1>
+      <span>Insira algarismos romanos ou arábicos<br/> (Apenas números inteiros positivos entre 1 e 3999.)</span>
+      <div>
+        <input 
+        type="text" 
+        id="input-number" 
+        placeholder="Digite um número romano ou arábico.." 
+        required
+        title="Digite um número romano ou arábico.."
+        />
+        <button 
+        onclick="convert()">Converter
+        </button>
+      </div>
+      <h2>Result: <br/></h2>
+      <h2 
+      id="errorMessage"
+      style="color: red; display: none;">
+      Por favor, preencha o campo.
+    </h2>
+    <div id="result"></div>
+  </main>
+  <script defer src="./src/convert.js"></script>
+  <script defer src="./src/arabicToRoman.js"></script>
+  <script defer src="./src/romanToArabic.js"></script>
+</body>
+
+</html>

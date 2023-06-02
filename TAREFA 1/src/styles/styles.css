@@ -1,0 +1,52 @@
+:root {
+ --bg-root: #060d15;
+ --primary: #8257e5;
+ font-family: sans-serif;
+ width: 100%;
+}
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ background-color: var(--bg-root);
+ height: 100vh;
+ color: white;
+}
+main,
+body {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+main {
+ 
+ height: 400px;
+ text-align: center;
+ background-color: rgba(0, 0, 0, 0.4);
+ border-radius: 20px;
+}
+main > * {
+ padding: 10px;
+}
+button,
+input {
+ border: none;
+ min-height: 40px;
+ font-size: 1.2rem;
+ border-radius: 0.3rem;
+ padding: 10px;
+ width: 100%;
+}
+
+button {
+ background-color: var(--primary);
+ color: white;
+ margin-top: 10px;
+}
+
+input {
+ font-size: 1.2rem;
+}
