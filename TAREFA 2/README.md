@@ -1,0 +1,1 @@
+## Para rodar este projeto basta apenas abrir o index.html :)
