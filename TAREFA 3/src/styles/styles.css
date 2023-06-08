@@ -1,0 +1,146 @@
+* {
+  font-family: sans-serif;
+}
+:root {
+  --bg-root: #060d15;
+  --bg-gray: #E6E6E6;
+  --primary: #8257e5;
+}
+body {
+  background-color: var(--bg-root);
+  color: white;
+  overflow-x: hidden;
+ text-align: center;
+}
+.Main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+main section{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  main {
+    flex-direction: column;
+    
+  }
+}
+.modal {
+  display: none
+}
+.modal {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.9);
+}
+.modal button{
+  margin-top: 5px;
+}
+#payers {
+ width: 60%;
+ height: 60%;
+ flex-direction: column;
+ background-color: #060d15;
+ justify-content: center;
+ text-align: center;
+ border-radius: 20px;
+}
+
+.dividerButton,
+.closeButton {
+  border: none;
+  padding: 5px;
+  color: white
+}
+.closeButton {
+background-color:lightcoral;
+}
+.dividerButton {
+  background-color: green;
+}
+
+.closedInvoice {
+  background-color: lightcoral;
+}
+input, 
+#commom-button {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#purple-button,
+#add-costumer,
+#add-product, 
+#pay-button,
+.dividerButton,
+.closeButton,
+.costumer-button {
+  background-color: var(--primary);
+  color: var(--bg-gray);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.costumer-button {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin-top: 5px
+}
+#commom-button,
+.closeButton {
+  background-color: lightcoral;
+  color: black
+}
+
+#pay-button,
+.dividerButton {
+  background-color: lightgreen;
+  color: black
+}
+#pay-button {
+  margin-top: 20px;
+  width: 100px;
+}
+
+#product-list,
+#costumer-list,
+#products-divider {
+  margin-top: 20px;
+  min-height: 300px;
+  min-width: 400px;
+  border-radius: 5px;
+  background-color: var(--bg-gray);
+  color: black
+}
+#products-divider {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 400px;
+  max-width: 100%;
+}
+
+.dividerButton,
+.closeButton {
+  align-self: center;
+  width: 50%;
+}

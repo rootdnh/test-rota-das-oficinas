@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../styles/styles.css">
+  <title>Pagar</title>
+</head>
+<body>
+  
+  <div class="modal">
+  <div id="payers">
+    <div id="payers-list"></div>
+    <button class="closeButton" onclick="closeDivider()">Cancelar</button> 
+    <button class="dividerButton" onclick="calc()">Dividir / Pagar</button>
+  </div>
+</div>
+  
+<div class="Main">
+  <h1>Dividir contas</h1>
+  <div id="products-divider"></div>
+
+  <span id="invoice-message"></span>  
+  <div id="invoice">
+  </div>
+  </div>
+  <div>
+    <button id="pay-button" onclick="goToHome()">VOLTAR</button>
+  </div>
+  <script src="../shared/functions.js"></script>
+  <script src="./divider.js"></script>
+</body>
+</html>

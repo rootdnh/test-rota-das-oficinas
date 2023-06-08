@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/styles.css">
+  <title>Divisor de contas</title>
+</head>
+
+<body>
+  <h1 >Divisor de contas</h1>
+  <main>
+    <section>
+      <div>
+        <input type="text" id="product" placeholder="Produto" />
+        <input type="number" id="product-price" placeholder="Preço" />
+        <button id="add-product">Adicionar</button>
+      </div>
+      <div id="product-list"></div>
+
+    </section>
+
+    <section>
+      <div>
+        <input type="text" id="costumer" placeholder="Cliente" />
+        <button id="add-costumer">Adicionar</button>
+      </div>
+      <div id="costumer-list"></div>
+    </section>
+
+    
+
+  </main>
+  <div>
+    <button id="pay-button" onclick="goToPay()">PAGAR</button>
+  </div>
+
+  <script src="./src/BillDivider.js"></script>
+  <script src="./src/shared/functions.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+Tarefa 3. Divisor de conta de restaurante 
+A sua tarefa será criar uma calculadora capaz de dividir a conta de um estabelecimento para cada cliente considerando somente o consumido por cada um. Considerar que a calculadora somente faz a divisão de uma conta por vez. 
+- Deve ser possível inserir múltiplos produtos e clientes; 
+- Um cliente pode ter consumido vários, um ou nenhum produto; 
+- Um produto pode ter sido consumido por vários ou um cliente; 
+- Deve ser verificado a inclusão dos 10% do serviço para cada pessoa individualmente, sendo a taxa aplicada ao valor que cada um gastou. 
+Exemplo 1 
+Clientes: João, Maria e Pedro 
+Produtos: Pizza (R$42,00) , Refrigerante (R$8,00) e Suco (R$ 7,00) 
+Todos consumiram a Pizza; 
+João e Pedro consumiram o Refrigerante; 
+Maria consumiu o Suco; 
+Somente Maria irá pagar os 10%. 
+Resultado 
+João: R$ 18,00 
+Pedro: R$ 18,00 
+Maria: R$ 23,10 
+Exemplo 2 
+Cliente: Marcos, Júlia, Fernando, Caio, Patricia e Bianca 
+Produtos: Rodízio Simples (R$70,00), Rodízio Executivo (R$85,00), Temaki (R$20,00), Refrigerante (R$6,00), Porção de Peixe (R$50,00) 
+Marcos, Fernando e Júlia consumiram um Rodízio Simples; 
+Caio consumiu um Rodízio Executivo; 
+Patricia consumiu 2 Temakis; 
+Bianca e Patricia consumiram uma Porção de Peixe; 
+Todos consumiram um Refrigerante cada; 
+Todos irão pagar a taxa de serviço;
+Resultado: 
+Marcos: R$ 83,60 Júlia: R$ 83,60 Fernando: R$ 83,60 Caio: R$ 100,10 Patricia: R$ 78,10 Bianca: R$ 34,10
